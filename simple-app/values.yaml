@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-image:
+imageProp:
   repository: docker.io/dkalinin/k8s-simple-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
